@@ -1,0 +1,16 @@
+@import "tailwindcss/tailwind.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "Hanken Grotesk", sans-serif;
+}
